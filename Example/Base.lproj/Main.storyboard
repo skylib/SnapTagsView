@@ -54,8 +54,8 @@
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="gQX-dn-3lL" secondAttribute="bottom" constant="218" id="dkN-xk-hBo"/>
-                                    <constraint firstItem="gQX-dn-3lL" firstAttribute="top" secondItem="pEj-98-GYY" secondAttribute="top" constant="218" id="sI4-Sb-8mT"/>
+                                    <constraint firstAttribute="bottom" secondItem="gQX-dn-3lL" secondAttribute="bottom" priority="300" constant="218" id="dkN-xk-hBo"/>
+                                    <constraint firstItem="gQX-dn-3lL" firstAttribute="top" secondItem="pEj-98-GYY" secondAttribute="top" priority="300" constant="218" id="sI4-Sb-8mT"/>
                                 </constraints>
                             </stackView>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="-40" minValue="-320" maxValue="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="KYw-uE-rS0">

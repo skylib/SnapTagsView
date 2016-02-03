@@ -152,7 +152,9 @@ public class SnapTagCell: UICollectionViewCell {
         }
     }
     
+    
     public override func preferredLayoutAttributesFittingAttributes(layoutAttributes: UICollectionViewLayoutAttributes) -> UICollectionViewLayoutAttributes {
+        return layoutAttributes;
         
         var width : CGFloat
         var height : CGFloat

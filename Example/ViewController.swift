@@ -182,7 +182,7 @@ class ViewController: UIViewController {
         c.onBackgroundImage = UIImage.Asset.RoundedButtonFilled.image
         c.offBackgroundImage = UIImage.Asset.RoundedButton.image
 
-        c.font = UIFont.boldWithSize(13.0)
+        c.font = UIFont.systemFontOfSize(13.0, weight: 2.0)
         c.onBackgroundColor = UIColor.roseColor()
         c.offBackgroundColor = UIColor.whiteColor()
         c.onTextColor = UIColor.whiteColor()
